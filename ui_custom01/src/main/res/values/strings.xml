@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UI_Custom01</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_radar">RadarActivity</string>
+    <string name="title_activity_water_progress">WaterProgressActivity</string>
+    <string name="title_activity_windows_copy_res_style_progress">
+        WindowsCopyResStyleProgressActivity
+    </string>
+    <string name="title_activity_combinationl_status">CombinationlStatusActivity</string>
+
+    <string name="callback_status_view_type_checkbox">checkbox</string>
+    <string name="callback_status_view_type_progressbar">progressbar</string>
+    <string name="callback_status_view_type_checkedtext">checkedtext</string>
+    <string name="callback_status_view_type_text">text</string>
+
+</resources>

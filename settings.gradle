@@ -1,0 +1,1 @@
+include ':app', ':ui_custom01', ':ui_sufaceview', ':ui_actionbar', ':ui_viewflipper', ':ui_viewpager', ':ui_drawerlayout'

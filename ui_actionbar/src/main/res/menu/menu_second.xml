@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--android:uiOptions="splitActionBarWhenNarrow" 当上面不够空间时，全部移植到到底部-->
+    <item
+        android:id="@+id/action_serch"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="ifRoom"
+        android:title="搜索" />
+
+    <item
+        android:id="@+id/action_steup"
+        android:icon="@mipmap/ic_room_chat"
+        android:showAsAction="ifRoom"
+        android:title="设置" />
+
+</menu>

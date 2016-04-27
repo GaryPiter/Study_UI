@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ui_DrawerLayout</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_content_fragment">ContentFragment</string>
+    <string name="title_activity_to_menu">ToMenuActivity</string>
+</resources>

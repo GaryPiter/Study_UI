@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:combinationl_status_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <net.dell.ui_custom01.view.CombinationlStatusView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center|right"
+        combinationl_status_view:check_state="true"
+        combinationl_status_view:checkedtext="等待中"
+        combinationl_status_view:progress="0"
+        combinationl_status_view:text="完成"
+        combinationl_status_view:type="checkbox" />
+
+</RelativeLayout>

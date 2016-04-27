@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Study_UI.iml" filepath="$PROJECT_DIR$/Study_UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui_actionbar/ui_actionbar.iml" filepath="$PROJECT_DIR$/ui_actionbar/ui_actionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui_custom01/ui_custom01.iml" filepath="$PROJECT_DIR$/ui_custom01/ui_custom01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui_drawerlayout/ui_drawerlayout.iml" filepath="$PROJECT_DIR$/ui_drawerlayout/ui_drawerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui_sufaceview/ui_sufaceview.iml" filepath="$PROJECT_DIR$/ui_sufaceview/ui_sufaceview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui_viewflipper/ui_viewflipper.iml" filepath="$PROJECT_DIR$/ui_viewflipper/ui_viewflipper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui_viewpager/ui_viewpager.iml" filepath="$PROJECT_DIR$/ui_viewpager/ui_viewpager.iml" />
+    </modules>
+  </component>
+</project>

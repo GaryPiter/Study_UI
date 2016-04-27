@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/radar_item"
+        android:orderInCategory="100"
+        android:title="雷达扫描界面"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/water_item"
+        android:orderInCategory="100"
+        android:title="水波纹界面"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/windows_item"
+        android:orderInCategory="100"
+        android:title="类似Copy的进度条显示"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/custom_status_item"
+        android:orderInCategory="100"
+        android:title="自定义组合状态控件"
+        app:showAsAction="never" />
+</menu>

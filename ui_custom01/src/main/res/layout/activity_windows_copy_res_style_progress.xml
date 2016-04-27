@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattr="http://schemas.android.com/apk/res-auto"
+    xmlns:points_p_bar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <net.dell.ui_custom01.view.customprogress.WindowsCopyResStyleProgress
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <net.dell.ui_custom01.view.customprogress.MovingProgressBar
+        android:id="@+id/moving_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/progressbar"
+        android:progress="20"
+        myattr:movingProgressColor="@color/backup_prog"
+        myattr:secondProg="@mipmap/backup_prog" />
+
+    <net.dell.ui_custom01.view.customprogress.PointsProgressBar
+        android:id="@+id/points_p_b"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_below="@id/moving_progress_bar"
+        android:visibility="visible"
+        points_p_bar:point_count="5"
+        points_p_bar:selected_src="@mipmap/checkbox_green_yes"
+        points_p_bar:unselected_src="@mipmap/checkbox_green_no" />
+</RelativeLayout>

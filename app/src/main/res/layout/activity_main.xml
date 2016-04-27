@@ -1,0 +1,45 @@
+<net.dell.study_ui.RearrangeableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rearrangeable_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    app:outlineColor="#00FFFF"
+    app:outlineWidth="2dp"
+    app:selectionAlpha="0.5"
+    app:selectionZoom="1.2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/darker_gray"
+        android:text="可拖拽的布局Sample Demo One"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_green_light"
+        android:text="可拖拽的布局Sample Demo Tow"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="可拖拽的布局Sample Demo Three"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="可拖拽的布局Sample Demo Four"
+        android:textSize="15sp" />
+
+</net.dell.study_ui.RearrangeableLayout>

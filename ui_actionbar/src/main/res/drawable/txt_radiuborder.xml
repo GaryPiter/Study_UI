@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--设置边框-->
+    <stroke android:color="#A647AD" android:width="2dp"/>
+    <!--设置渐变背景-->
+    <gradient
+        android:angle="270"
+        android:startColor="#10C70D"
+        android:endColor="#151DB5"/>
+    <!--设置圆角-->
+    <corners android:radius="10dp"/>
+    <!--设置边距-->
+    <padding
+        android:right="10dp"
+        android:top="10dp"
+        android:left="10dp"
+        android:bottom="10dp"/>
+
+</shape>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--设置边框-->
+    <stroke android:color="#11760A" android:width="2dp"/>
+    <!--设置渐变背景-->
+    <gradient
+        android:angle="180"
+        android:startColor="#C00A29"
+        android:endColor="#931D95"/>
+    <!--设置边距-->
+    <padding
+        android:right="10dp"
+        android:top="10dp"
+        android:left="10dp"
+        android:bottom="10dp"/>
+
+</shape>
